@@ -2,4 +2,7 @@
 .vscode/
 
 # Binary files
-*.bin
+/bin/
+
+# Build files
+/build/
