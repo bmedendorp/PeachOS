@@ -1,4 +1,6 @@
 all:
+	mkdir -p bin
+	mkdir -p build
 	nasm -f bin ./src/boot/boot.asm -o ./bin/boot.bin
 
 clean:
